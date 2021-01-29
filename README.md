@@ -1,10 +1,10 @@
 # Mémo pour la syntaxe Markdown
-## Introduction
+### Introduction
 
 Ce document est mon mémo concernant le markdown et un inventaire de sa syntaxe.
 
 
-#### Qu'est ce que Markdown ?
+##### Qu'est ce que Markdown ?
 
 Markdown est un système d’édition et de formatage de texte ; c’est à la fois une syntaxe, un script de conversion texte → HTML et un format de fichier. Il est couramment utilisé pour les fichiers de documentation d’un projet ou d’un jeu de données -souvent nommé readme.md. Il est stocké au format texte classique.
 
@@ -20,7 +20,7 @@ Sources :
 
 
 
-##### Sommaire
+## Sommaire
 * [La casse](#la-casse)
 * [Les titres](#les-titres)
 * [Les listes](#les-listes)
@@ -28,7 +28,7 @@ Sources :
 * [Les images](#les-images.md)
 
 
-## La casse
+### La casse
 * Pour mettre en **gras**  : `**du gras**`.
 * Pour mettre en *italique*  : `*de l'italique*`.
 
@@ -45,9 +45,12 @@ Syntaxe:
     ##### Ici un titre de niveau 5
     #### Ici un titre de niveau 4
 
+Les titres peuvent servir d'ancre pour des liens. Cf. la section concernant ['les liens'](#les-liens).
 
-## Les listes
-#### La liste à puces
+[Retour au sommaire](#sommaire)
+
+### Les listes
+##### La liste à puces
 
 *Pour créer une liste à puces, procédez de la manière suivante*
 
@@ -60,8 +63,9 @@ Syntaxe :
      * Ecrivez un astérisque
      * Ecrivez votre texte
      * Faites la même chose à la ligne suivante
+[Retour au sommaire](#sommaire)
 
-#### La liste numérotée
+##### La liste numérotée
 
 *Pour créer une liste numérotée, procédez de la manière suivante*
 
@@ -76,9 +80,9 @@ Syntaxe :
     2. Mettez un point
     3. Mettez votre texte
     4. Répétez les 3 points précédents avec la suite logique du chiffre
+[Retour au sommaire](#sommaire)
 
-
-### La liste à puces imbriquées
+##### La liste à puces imbriquées
   *Pour créer des listes à puces imbriquées, procédez comme suit:*
 
   * Ecrivez un astérisque
@@ -97,10 +101,10 @@ Syntaxe :
           * Faire un retrait
              * Créez une nouvelle liste
                 * Et ainsi de suite...
+[Retour au sommaire](#sommaire)
 
-## Les liens
-
-   [Lien vers la page Wikipédia de Markdown](https://fr.wikipedia.org/wiki/Markdown "logo Mardown de wikipedia")
+### Les liens
+Exemple : un [lLien vers la page Wikipédia de Markdown](https://fr.wikipedia.org/wiki/Markdown "logo Mardown de wikipedia")
 
   Syntaxe :
 
@@ -114,13 +118,20 @@ Le lien peut être absolu ou relatif, il peut pointer sur une page html ou markd
       (./ma_page.html#mon-ancre "mon titre")
       ()./ma_page.md#mon-ancre)
 
+Si l'ancre est sur le même document que le lien, on omet la page.
+Exemple :
+
+      [Retour au sommaire](#sommaire)
+[Retour au sommaire](#sommaire)
 
 
 
-## Les Images
+
+#### Les Images
 
   ![Logo de markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)
 
    Syntaxe :
 
     ![Texte alternatif](url_de_l'image "texte pour le titre, facultatif")
+[Retour au sommaire](#sommaire)
