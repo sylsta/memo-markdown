@@ -1,7 +1,7 @@
 # <center>Mémo pour la syntaxe Markdown </center>
 <p>&nbsp</p>
 
-### Introduction
+## Introduction
 
 
 
@@ -34,7 +34,7 @@ Sources :
 
 <p>&nbsp</p>
 
-### La mise en forme
+## La mise en forme
 * Pour mettre en **gras**  : `**du gras**`.
 * Pour mettre en *italique*  : `*de l'italique*`.
 * pour barrer [u] le texte[/u] : ``
@@ -95,7 +95,7 @@ Idem pour justifier :
 [Retour au sommaire](#sommaire)
 <p>&nbsp</p>
 
-### Les titres
+## Les titres
 
 
   ###### Ici un titre de niveau 6
@@ -113,8 +113,8 @@ Les titres peuvent servir d'ancre pour des liens. Cf. la section concernant ['le
 [Retour au sommaire](#sommaire)
 <p>&nbsp</p>
 
-### Les listes
-##### La liste à puces
+## Les listes
+#### La liste à puces
 
 *Pour créer une liste à puces, procédez de la manière suivante*
 
@@ -130,7 +130,7 @@ Syntaxe :
 ```
 [Retour au sommaire](#sommaire)
 
-##### La liste numérotée
+#### La liste numérotée
 
 *Pour créer une liste numérotée, procédez de la manière suivante*
 
@@ -149,7 +149,7 @@ Syntaxe :
 [Retour au sommaire](#sommaire)
 
 
-##### La liste à puces imbriquées
+#### La liste à puces imbriquées
 
   *Pour créer des listes à puces imbriquées, procédez comme suit:*
 
@@ -173,7 +173,7 @@ Syntaxe :
 [Retour au sommaire](#sommaire)
 <p>&nbsp</p>
 
-### Les liens ###
+## Les liens ###
 
 Exemple : un [lien vers la page Wikipédia sur Markdown](https://fr.wikipedia.org/wiki/Markdown)
 
@@ -206,7 +206,7 @@ Exemple :
 [Retour au sommaire](#sommaire)
 <p>&nbsp</p>
 
-### Les Images
+## Les Images
 <p>&nbsp</p>
 
   ![Logo de markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png "logo Mardown de wikipedia")
@@ -222,7 +222,7 @@ Exemple :
 ```
 [Retour au sommaire](#sommaire)
 
-### Les citations
+## Les citations
 Elle peuvent être dans une `ligne de texte` ou
 ```
 dans un bloc
